@@ -14,18 +14,28 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 500px;
-  margin-left: 500px;
+  width: 400px;
+  margin-left: 150px;
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
   font-weight: 500;
   text-decoration: none;
 }
 .logo {
-  margin-left: 220px;
+  margin-left: 160px;
 }
-.person-icon {
-  color: aqua;
+
+.nav-icons {
+  color: #a46c6e;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60px;
+  margin-left: 50px;
+  justify-content: space-between;
+  margin-left: 550px;
+  margin-top: 5px;
 }
 header {
   display: flex;
