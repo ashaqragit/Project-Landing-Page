@@ -24,6 +24,9 @@
 .logo {
   margin-left: 220px;
 }
+.person-icon {
+  color: aqua;
+}
 header {
   display: flex;
 }
