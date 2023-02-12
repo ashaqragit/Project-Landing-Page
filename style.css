@@ -1,1 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,500;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Open+Sans:ital,wght@0,300;0,400;1,500;1,600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
 
+.banner {
+  width: 1600px;
+  height: 600px;
+  background-image: url("/images/banner 1.png");
+}
+.banner {
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  color: #fefcfc;
+
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em #5c3c3dc0, 0 0 0.2em #5c3c3dc0;
+  font-size: 30px;
+}
+.hero-message {
+  margin-top: 100px;
+  margin-left: 140px;
+  margin-bottom: 10px;
+}
+.hero-paragraph {
+  width: 500px;
+  margin-left: 140px;
+  font-weight: 400;
+  font-size: 35px;
+  font-family: "Josefin Slab", serif;
+}
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  margin-left: 140px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.logo {
+  margin-left: 160px;
+}
+
+.nav-icons {
+  color: #a46c6e;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60px;
+  margin-left: 50px;
+  justify-content: space-between;
+  margin-left: 550px;
+  margin-top: 5px;
+}
+header {
+  display: flex;
+}
+a {
+  color: #414141;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  color: #a46c6e;
+}
