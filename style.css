@@ -230,7 +230,7 @@
 body {
   /* width: 100%; */
 
-  background: radial-gradient(#ffffff, #faf5f0);
+  background: radial-gradient(#ffffff, #fcefe3);
 }
 .footer {
   display: flex;
