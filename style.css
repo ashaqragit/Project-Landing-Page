@@ -15,7 +15,7 @@
   font-size: 30px;
   width: 100%px;
   height: 700px;
-  background-image: url("/images/Hero2.png");
+  background-image: url("images/Hero2.png");
 }
 .hero-message {
   margin-top: 100px;
@@ -188,7 +188,7 @@
   width: 100%px;
   height: 450px;
   opacity: 0.8;
-  background-image: url("/images/quote.png");
+  background-image: url("images/quote.png");
 }
 .quote-message {
   margin-top: 100px;
