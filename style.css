@@ -42,7 +42,7 @@
   text-decoration: none;
 }
 .logo {
-  margin-left: 160px;
+  margin-left: 210px;
 }
 
 .nav-icons {
@@ -127,7 +127,7 @@
 .info-bar {
   display: flex;
   flex-direction: column;
-  padding-top: 20px;
+  padding-top: 50px;
 }
 .info-bar-title {
   font-family: "Open Sans", sans-serif;
@@ -217,7 +217,7 @@
   width: 1000px;
   height: 150px;
   background-color: #c6bbdb;
-  opacity: 0.6;
+  opacity: 0.8;
   font-family: "Open Sans", sans-serif;
   border-radius: 15px;
 }
@@ -225,8 +225,20 @@
   font-size: 20px;
 }
 body {
-  width: 100%;
-  background-color: #fcefef6b;
+  /* width: 100%; */
+
+  background: radial-gradient(#ffffff, #faf5f0);
+}
+.footer {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 30px;
+
+  font-family: "Open Sans", sans-serif;
+  color: #414141;
 }
 header {
   display: flex;
