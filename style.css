@@ -11,7 +11,7 @@
 
 .header-inside {
   display: flex;
-  width: 850px;
+  width: 1500px;
   justify-content: space-between;
 }
 
@@ -38,6 +38,47 @@
 #logo {
   font-family: "Send Flowers";
   font-weight: 600;
+  background: linear-gradient(to right, #e6c17a, #d3cae2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.under-header {
+  display: flex;
+  background-color: #404041;
+  height: 500px;
+  justify-content: center;
+}
+
+.under-header-content {
+  width: 1500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.under-header-text {
+  height: 350px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+.under-header-img {
+  border-radius: 10px;
+}
+.hero-text {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 40px;
+  background: linear-gradient(to right, #d3cae2, #e6c17a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.under-hero-text {
+  font-family: "Roboto";
+  font-size: 25px;
   background: linear-gradient(to right, #e6c17a, #d3cae2);
   background-clip: text;
   -webkit-background-clip: text;
