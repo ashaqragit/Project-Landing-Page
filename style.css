@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  background-color: #404041;
+  height: 70px;
+  justify-content: center;
+}
+
+.header-inside {
+  display: flex;
+  width: 850px;
+  justify-content: space-between;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+.header-links {
+  font-family: "Roboto";
+  font-size: 17px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 350px;
+  background: linear-gradient(to right, #e6c17a, #d3cae2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#logo {
+  font-family: "Send Flowers";
+  font-weight: 600;
+  background: linear-gradient(to right, #e6c17a, #d3cae2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
